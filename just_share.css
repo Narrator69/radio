@@ -1,0 +1,25 @@
+.share-vkontakte, .share-twitter,
+.share-facebook, .share-google {
+	display: inline-block;
+	margin: 0px 5px;
+	font-size: 18pt;
+	color: #FFF;
+	background: rgba(255, 255, 255, 0.15);
+	border-radius: 4px; 
+	-moz-border-radius: 4px; 
+	-webkit-border-radius: 4px; 
+	padding: 5px;
+	cursor: pointer;
+	transition: background 0.2s;
+	-webkit-transition: background 0.2s;
+	-moz-transition: background 0.2s;
+	-o-transition: background 0.2s;
+}
+
+.share-vkontakte span, .share-twitter span,
+.share-facebook span, .share-google span {
+	font-family: "Helvetica Neue", Arial;
+	margin-left: 4px;
+	font-size: 14pt;
+	vertical-align: 2px;
+}
