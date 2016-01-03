@@ -1,0 +1,42 @@
+@font-face{
+	font-family: Header;
+	src: url(comfortaabold.ttf);
+}
+
+@font-face{
+	font-family: Default;
+	src: url(b20sans.ttf);
+}
+
+body {
+	background: url(skulls.jpg) repeat;
+}
+
+h1, h2, h3 {
+	font-family: Header;
+}
+
+h1 {
+	font-size: 40pt;
+}
+
+h2 {
+	font-size: 25pt;
+}
+
+#head, #content {
+	text-align: center;
+	padding: 80px 0px;
+}
+
+button {
+	margin: 0px 40px;
+}
+
+.glyphicon {
+	font-size: 40pt;
+}
+
+hr {
+	max-width: 700px;
+}
