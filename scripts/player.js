@@ -57,7 +57,7 @@ function class_rp_engine() {
 	}
 
 	self.attributes = function() {
-		$.get('player.php?station=' + current, null, function(response) {
+		$.get('radio.php?station=' + current, null, function(response) {
 			$('#head h1').html(response['band'] + ' — ' + response['song']);
 			$('title').html(response['band'] + ' — ' + response['song']);
 		});

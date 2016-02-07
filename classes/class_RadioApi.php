@@ -2,7 +2,7 @@
 
 /* Radio Class */
 
-class Radio {
+class RadioApi {
 	private $stations = [
 		'http://radiopleer.com/info/nashe20.txt',
 		'http://radiopleer.com/info/ultra.txt',
@@ -12,7 +12,7 @@ class Radio {
 	];
 
 	private function get($url) {
-		$text = '------Contact me if you are annoying - alexander69.ru------';
+		$text = '------Contact me if you are annoying - alx69.com------';
 
 		$ch = curl_init($url);
 
@@ -61,16 +61,5 @@ class Radio {
 		return $this->parse($data, $current);
 	}
 }
-
-/* Intialization */
-
-if (!isset($_GET['station']) || !is_numeric($_GET['station']) || $_GET['station'] < 0 || $_GET['station'] > 4) {
-	header('Location: http://alexander69.ru/');
-}
-
-header('Content-Type: application/json');
-
-$radio = new Radio;
-echo $radio->getText($_GET['station']);
 
 ?>

@@ -7,9 +7,9 @@
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="rangeslider.css" />
-		<script src="rangeslider.js"></script>
-		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="styles/rangeslider.css" />
+		<script src="scripts/rangeslider.js"></script>
+		<link rel="stylesheet" href="styles/styles.css">
 	</head>
 	<body>
 		<div class="container">
@@ -29,6 +29,6 @@
 			</div>
 			<div class="row"><div class="col-xs-6 col-md-6 col-xs-offset-3 col-md-offset-3"><input type="range"></input></div></div>
 		</div>
-	<script src="player.js"></script>
+	<script src="scripts/player.js"></script>
 	</body>
 </html>
