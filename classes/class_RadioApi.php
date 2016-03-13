@@ -46,10 +46,6 @@ class RadioApi {
 				$returnData['band'] = explode(' - ', $tempBand)[0];
 				$returnData['song'] = explode('</body>', $tempSong)[0];
 				break;
-			case 4:
-				$returnData['band'] = '';
-				$returnData['song'] = '';
-				break;
 		}
 
 		return json_encode($returnData);
