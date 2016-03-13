@@ -2,10 +2,16 @@ function class_rp_engine() {
 	var self = this;
 	var current = 0;
 	var stream = '';
-	var stations = [
-		['http://player.nashe.ru', 'Наше 2.0', 'http://nashe20.streamr.ru/nashe20-128.mp3'], ['http://player.radioultra.ru', 'Ultra', 'http://nashe2.hostingradio.ru/ultra-128.mp3'],
-		['http://www.rock-online.ru', 'Рок-Онлайн', 'http://skycast.su:2007/rock-online'], ['http://realpunkradio.com', 'Real Punk', 'http://192.81.248.192:8080/;listen.mp3'],
-		['http://www.radcap.ru/poppunk.html', 'RadCap', 'http://79.111.14.76:9035/;']
+	var stations = 
+	[
+		['http://player.nashe.ru', 'Наше 2.0', 'http://nashe20.streamr.ru/nashe20-128.mp3'],
+		['http://player.radioultra.ru', 'Ultra', 'http://nashe2.hostingradio.ru/ultra-128.mp3'],
+		['http://realpunkradio.com', 'Real Punk', 'http://192.81.248.192:8080/;listen.mp3'],
+		['http://radcap.ru/poppunk.html', 'RadCap', 'http://79.111.14.76:9035/;'],
+		['http://rautemusik.fm/radio/webplayer/12punks', '12punks', 'http://12punks-high.rautemusik.fm/;stream.nsv'],
+		['http://poppunkradio.com/', 'Pop Punk Radio', 'http://67.212.189.20:8210/;7'],
+		['http://rantmedia.ca/rantradio/', 'RantRadio', 'http://broadcast.rantradio.com:9000/;10'],
+		['http://online-radio-rok-proryv.com/slushajte-pank-rok/', 'ORRP', 'http://orrp.ru:8004/live_192']
 	];
 
 	self.start = function() {
